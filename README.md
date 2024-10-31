@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# 📚 About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I put together a 3D can model in Blender, designed the website and labels in Figma, and then used GSAP with React-three-fiber (React-three-fiber is a React renderer for Three.js) to bring it all to life with cool animations for the models and text.
 
-Currently, two official plugins are available:
+# 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   React, TypeScript, Tailwind
+-   GSAP, React-Three-Fiber
+-   Blender, Figma
 
-## Expanding the ESLint configuration
+# 🔍 Details
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+I want to split this section into three parts to discuss my experience in detail with the following tools:
 
-- Configure the top-level `parserOptions` property like this:
+## 1. Blender
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Blender was definitely the toughest part of this project since I’d never used it before. But once I dove in, I started seeing just how powerful it is. It opened my eyes to all the cool stuff I could build, and now I’m already imagining some exciting projects I could tackle with it in the future.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+https://github.com/user-attachments/assets/5bf594a5-7ffa-489c-9e51-4ab818ca4439
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 2. Figma.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Figma was a lot easier for me since I have plenty of experience with it. I used it to design a custom layout for my website, which saved me a ton of time when I started coding. Plus, I created all the labels for the cans in Figma too.
+
+https://github.com/user-attachments/assets/c37420fc-7e64-4914-ad2d-c2f7f836de77
+
+## 3. GSAP.
+
+I used GSAP for all the can animations, and it was a lot of fun experimenting with different timelines. For example, the Vanilla Coke has four unique animations in the same scene, each playing one after another as you scroll through the site.
