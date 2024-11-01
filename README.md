@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/5bf594a5-7ffa-489c-9e51-4ab818ca4439
 
 Figma was a lot easier for me since I have plenty of experience with it. I used it to design a custom layout for my website, which saved me a ton of time when I started coding. Plus, I created all the labels for the cans in Figma too.
 
-https://github.com/user-attachments/assets/c37420fc-7e64-4914-ad2d-c2f7f836de77
+https://github.com/user-attachments/assets/d89eb2f7-1e5a-4b2a-9bcb-eac6a701111f
 
 ## 3. GSAP.
 
